@@ -1,0 +1,24 @@
+'sass':
+  'compiler'            : 'sass'
+  'params'              : ''
+  'source'              : '/dev/sass'
+  'destination'         : '/production/css/from_sass'
+  'extname'             :
+    'react'             : '.sass'
+    'store'             : '.css'
+'less':
+  'compiler'            : 'lessc'
+  'params'              : '>'
+  'source'              : '/dev/less'
+  'destination'         : '/production/css/from_less'
+  'extname'             :
+    'react'             : '.less'
+    'store'             : '.css'
+'html':
+  'compiler'            : 'haml'
+  'params'              : ''
+  'source'              : '/dev/haml'
+  'destination'         : '/production'
+  'extname'             :
+    'react'             : '.haml'
+    'store'             : '.html'

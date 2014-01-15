@@ -1,0 +1,397 @@
+!!!
+%html{lang: "en-US"}
+  %head
+    %meta{charset: "UTF-8"}/
+    %title Irish Miss / Home
+    %link{href: "http://gmpg.org/xfn/11", rel: "profile"}/
+    %meta{content: "Irish Miss", property: "og:title"}/
+    /[if lt IE 9] <script src="http://irishmiss.com/assets/js/html5.js"></script>
+    %meta{content: "width=device-width, initial-scale=1, maximum-scale=1", name: "viewport"}/
+    %link{href: "", rel: "alternate", title: "TheMondays", type: "application/rss+xml"}/
+    %script{src: "assets/js/jquery.min.js", type: "text/javascript"}
+    %link{href: "http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic", rel: "stylesheet", type: "text/css"}/
+    /
+      <link rel="stylesheet" id="style-css"  href="http://www.irishmiss.com/assets/vendors/font-awesome.css" type="text/css" media="all" />
+      <link rel="stylesheet" id="style-css"  href="http://www.irishmiss.com/assets/vendors/font-icomoon.css" type="text/css" media="all" />
+      <link rel="stylesheet" id="style-css"  href="http://www.irishmiss.com/assets/vendors/bootstrap.css" type="text/css" media="all" />
+    %link#style-css{href: "http://www.irishmiss.com/assets/css/vendors.css", media: "all", rel: "stylesheet", type: "text/css"}/
+    %link{href: "http://www.irishmiss.com/assets/css/home.css", rel: "stylesheet", type: "text/css"}/
+    %link{href: "http://www.irishmiss.com/assets/img/favicon.png", rel: "apple-touch-icon-precomposed"}/
+    %link{href: "http://www.irishmiss.com/assets/img/favicon.png", rel: "shortcut icon"}/
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-35979436-1']);
+      _gaq.push(['_setDomainName', 'themondays.ca']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  %body
+    %header
+      .navigation
+        .container
+          .row
+            %nav
+              %ul
+                %li
+                  %a.active{href: "http://www.irishmiss.com/"} Home
+                %li
+                  %a{href: "http://themeforest.net/user/pixum"} Themes
+                %li
+                  %a{href: "http://www.irishmiss.com/policy.html"} Policy
+                %li
+                  %a{href: "http://www.irishmiss.com/support.html"} Support
+                %li
+                  %a{href: "http://github.com/irishmiss"} Github
+      / /navigation
+      .main_banner
+        .container
+          .row.banner_inner
+            %img.banner_logo{alt: "Premium WordPress Themes Frontend & Backend", src: "http://irishmiss.com/assets/img/banner_logo.png", title: "Premium WordPress Themes Frontend & Backend"}/
+            .support_btn
+              %a.btn.btn-theme-one{href: "http://irishmiss.com/support.html"}
+                %i.im-icon-keyboard-2
+                Need Support?
+      / /main_banner
+    %section.benefits_slider.section_shadow
+      .flex_slideshow.container.controls_right_dots
+        .flexslider.flex_benefits
+          %ul.slides
+            %li
+              .container
+                .row
+                  .col-sm-4.col-xs-12
+                    .benefit
+                      .caption.clearfix
+                        .icon
+                          %i.im-icon-eye-2.c3.fs40
+                        .line
+                        .text
+                          %span.inner.ls1px.uppercase.bold.c2
+                            Brand new
+                            %br>/
+                            sight
+                      .content
+                        All our products contain unique features, developed and implemented by our team. We are passionate about using latest technologies in our products, such as syntactically awesome code.
+                    / /benefit
+                  / /col
+                  .col-sm-4.col-xs-12
+                    .benefit
+                      .caption.clearfix
+                        .icon
+                          %i.fa-icon-comments.c3.fs40
+                        .line
+                        .text
+                          %span.inner.ls1px.uppercase.bold.c2
+                            Better Customer
+                            = succeed "Support" do
+                              %br/
+                      .content
+                        From now all issues you face will be stored inside developers tracker, and reviewed with support engineers level 2 and 3. Each issue will be delegated to appropriated person, treated as super urgent, and closed only when issue is resolved.
+                    / /benefit
+                  / /col
+                  .col-sm-4.col-xs-12
+                    .benefit
+                      .caption.clearfix
+                        .icon
+                          %i.im-icon-code.c3.fs40
+                        .line
+                        .text
+                          %span.inner.ls1px.uppercase.bold.c2
+                            Customisation
+                            = succeed "Services" do
+                              %br/
+                      .content
+                        We may provide additional customisation services in case you require assistance or enhancement of theme features. Unique look, extended plugins compatibility, etc. Whatever you need.
+                    / /benefit
+                  / /col
+                / /row
+              / /container
+            %li
+              .container
+                .row
+                  .col-sm-4.col-xs-12
+                    .benefit
+                      .caption.clearfix
+                        .icon
+                          %i.fa-icon-certificate.c3.fs40
+                        .line
+                        .text
+                          %span.inner.ls1px.uppercase.bold.c2
+                            Partnership and
+                            %br>/
+                            collaboration
+                      .content
+                        We're open to collaborate with innovators, developers, specialists, and just good teams, who making Internet better. Great things such as elm-lang, ECMAScript should live in 2014 ;)
+                    / /benefit
+                  / /col
+                  .col-sm-4.col-xs-12
+                    .benefit
+                      .caption.clearfix
+                        .icon
+                          %i.im-icon-tree.c3.fs40
+                        .line
+                        .text
+                          %span.inner.ls1px.uppercase.bold.c2
+                            Themeforest
+                            %br>/
+                            Partnership
+                      .content
+                        Looking for someone experienced to help you with your marketplace startup? If you would like to sell more on Themeforest, and looking for partners - developers or designers - feel free to ask us. We would gladly be in popular with you.
+                    / /benefit
+                  / /col
+                  .col-sm-4.col-xs-12
+                    .benefit
+                      .caption.clearfix
+                        .icon
+                          %i.im-icon-copy-4.c3.fs40
+                        .line
+                        .text
+                          %span.inner.ls1px.uppercase.bold.c2
+                            User
+                            %br>/
+                            Experience
+                      .content
+                        Our developers think about our customers and usability of our products. We are asking ourself - how you will be using these tools, how this features will help your business grow, how to make it easy and secure for you? No trends - customer experience only!
+                    / /benefit
+                  / /col
+                / /row
+              / /container
+    / /benefits_slider
+    %section.paddings100_top_bottom.section_border.handheld_centering
+      .vp_tabs.container
+        .row
+          .col-sm-12.col-md-3.tabs_buttons
+            %ul
+              %li
+                %a{href: "#"}
+                  / .active
+                  %span.inner.clearfix
+                    %span.tab_numder
+                      01
+                    %span.line
+                      %span.line_inner
+                    %span.caption_tagline
+                      %span.caption.uppercase.bold.ls1px.c2
+                        Product customisation
+                      %span.tagline.c4
+                        Custom, solutions for our buyers. Any level of our theme customization.
+              %li
+                %a{href: "#"}
+                  %span.inner.clearfix
+                    %span.tab_numder
+                      02
+                    %span.line.pull-left
+                      %span.line_inner
+                    %span.caption_tagline
+                      %span.caption.uppercase.bold.ls1px.c2
+                        Free
+                        %br>/
+                        support
+                      %span.tagline.c4
+                        Any issue you face is processed with ticket system and resolved.
+              %li
+                %a{href: "#"}
+                  %span.inner.clearfix
+                    %span.tab_numder
+                      03
+                    %span.line
+                      %span.line_inner
+                    %span.caption_tagline
+                      %span.caption.uppercase.bold.ls1px.c2
+                        Themes
+                        %br>/
+                        Experience
+                      %span.tagline.c4
+                        Our themes are built for demanding users who likes flexibility.
+          / /tabs_buttons
+          .col-sm-12.col-md-9.tabs_content
+            .row
+              .col-sm-6.col-xs-12
+                %h2.fs50.mb50.lh110pr
+                  \#Meet the Irish Team
+                %span.c4.fs20.lh110pr.mb40.display-block
+                  / We build premium WordPress themes & plugins.
+                  We have reached over
+                  %br/
+                  %span.bold.ls1px.c2.fs20 2,000 customers
+                  around the world in 2013.
+                  = succeed "Ask" do
+                    %br/
+                  = succeed "user" do
+                    %br/
+              .col-sm-6.col-xs-12
+                %img{alt: "", src: "http://irishmiss.com/assets/img/iphone_1.png", title: ""}/
+          / /tabs_content
+        / /row
+      / /container
+    / /paddings100_top_bottom
+    %section.paddings100_top_bottom.section_border.bg5.handheld_centering
+      .container
+        .row
+          .col-sm-6.col-xs-12.works_title
+            %h4.caption.uppercase.bold.ls1px.fs20.c2.inline-block
+              Our Works
+          .col-sm-6.col-xs-12.works_all_button
+            %a.btn.btn-theme-one.inline-block{href: "http://themeforest.net/user/pixum/portfolio", title: "View All Themes"} View All Themes
+      / /container
+      .flex_slideshow.container.controls_arrows_on_sides
+        .flexslider.flex_works
+          %ul.slides
+            %li
+              .container
+                .row
+                  .col-sm-4.col-xs-12
+                    .work
+                      %a{href: "http://themeforest.net/item/startup-multipurpose-responsive-theme/5445413", title: "StartUp"}
+                        %img{alt: "StartUp", src: "http://irishmiss.com/assets/img/work_su.png"}/
+                    / /work
+                  / /col
+                  .col-sm-4.col-xs-12
+                    .work
+                      %a{href: "http://themeforest.net/item/overgrowth-retina-responsive-multipurpose-theme/4896083", title: "Overgrowth"}
+                        %img{alt: "Overgrowth", src: "http://irishmiss.com/assets/img/work_og.png"}/
+                    / /work
+                  / /col
+                  .col-sm-4.col-xs-12
+                    .work
+                      %a{href: "", title: "BusinessMaker"}
+                        %img{alt: "BusinessMaker", src: "http://irishmiss.com/assets/img/work_bm.png"}/
+                    / /work
+                  / /col
+                / /row
+              / /container
+        / /flexslider
+      / /flex_slideshow
+    / /paddings100_top_bottom
+    %section.paddings100_top_bottom.handheld_centering
+      .container
+        .row
+          .col-sm-6.col-xs-12
+            .decoration_line
+            / /decoration_line
+            %h3.fs50.mb50.lh110pr
+              Stay
+              %br>/
+              Tuned
+            %p.fs20.mb40.c4
+              Don't miss great products and a lot of interesting stuff. Subscribe to get newsletter from our team.
+            %form.subscribe{action: "#", method: "post", name: "subscribe"}
+              %input.col-xs-7.input-theme.display-block.float-none.mb20{disabled: "disabled", name: "email", placeholder: "Enter your email...", type: "text"}/
+              %button.btn.btn-theme-one.display-block.float-none.mb50{disabled: "disabled"}
+                Subscribe
+          .col-sm-6.col-xs-12
+            .row.blog_updates
+              .col-sm-6.col-xs-12
+                .post_holder.mb50
+                  .post_big_date.mb20.clearfix
+                    .day.fs50.c3.bold
+                      01
+                    .line
+                    .month_year.bold
+                      01' 2014
+                  .post_excerpt.c4.mb20
+                    %p Thank you all for greetings, and helping us make our products better!
+                  .post_details
+                    %a.c2{href: "http://www.irishmiss.com/news/hny", title: ""} details
+                / /post_holder
+              .col-sm-6.col-xs-12
+                .post_holder.mb50
+                  .post_big_date.mb20.clearfix
+                    .day.fs50.c3.bold
+                      31
+                    .line
+                    .month_year.bold
+                      12' 2013
+                  .post_excerpt.c4.mb20
+                    %p This Saturday we have finished working on our new website.
+                  .post_details
+                    %a.c2{href: "http://www.irishmiss.com/news/meet-new-irishteam", title: ""} details
+                / /post_holder
+              .col-sm-6.col-xs-12
+                .post_holder.mb50
+                  .post_big_date.mb20.clearfix
+                    .day.fs50.c3.bold
+                      30
+                    .line
+                    .month_year.bold
+                      12' 2013
+                  .post_excerpt.c4.mb20
+                    %p Say Hi to new designers in our office!
+                  .post_details
+                    %a.c2{href: "http://www.irishmiss.com/news/say-hi-to-new-ones", title: ""} details
+                / /post_holder
+              .col-sm-6.col-xs-12
+                .post_holder.mb50
+                  .post_big_date.mb20.clearfix
+                    .day.fs50.c3.bold
+                      30
+                    .line
+                    .month_year.bold
+                      12' 2013
+                  .post_excerpt.c4.mb20
+                    %p Last week we have changed our outsoursing office location.
+                  .post_details
+                    %a.c2{href: "http://www.irishmiss.com/news/new-office", title: ""} details
+                / /post_holder
+            / /row
+        / /row
+      / /container
+    / /paddings100_top_bottom
+    %footer.paddings75_top_bottom.handheld_centering
+      .container
+        .row
+          .col-sm-6.col-xs-12
+            .navigation
+              .row
+                %nav
+                  %ul
+                    %li
+                      %a.active{href: "http://www.irishmiss.com/"} Home
+                    %li
+                      %a{href: "http://themeforest.net/user/pixum"} Themes
+                    %li
+                      %a{href: "policy.html"} Policy
+                    %li
+                      %a{href: "support.html"} Support
+                    %li
+                      %a{href: "#"} Github
+            .mb50.clearfix
+            .mb50.clearfix
+            .mb50.clearfix
+            .mb50.clearfix
+            .copyright.c4.mb50
+              Copyright 2014. Irish Miss Limited
+          .col-sm-3.col-xs-12
+            %h5.caption.uppercase.bold.c1.mb50
+              Team Updates
+            .c4.mb40
+              %p Thank you all for greetings, and helping us make our products better!
+              .c1.fs13
+                1 January, 2014
+            .c4.mb40
+              %p This Saturday we have finished working on our new website.
+              .c1.fs13
+                31 December, 2013
+          .col-sm-3.col-xs-12
+            %h5.caption.uppercase.bold.c1.mb50
+              Customization Services
+            .list_style
+              %ul
+                %li
+                  %a{href: "#", title: "IrishMiss"} Theme install and set-up
+                %li
+                  %a{href: "#", title: "IrishMiss"} Responsive development
+                %li
+                  %a{href: "#", title: "IrishMiss"} Custom page templates
+                %li
+                  %a{href: "#", title: "IrishMiss"} Custom plugin development
+                %li
+                  %a{href: "#", title: "IrishMiss"} Custom theme and icons design
+        / /row
+    %script{src: "http://irishmiss.com/assets/js/jquery.flexslider.js", type: "text/javascript"}
+    %script{src: "http://irishmiss.com/assets/js/bootstrap.min.js", type: "text/javascript"}
+    %script{src: "http://irishmiss.com/assets/js/app.js", type: "text/javascript"}

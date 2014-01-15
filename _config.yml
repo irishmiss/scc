@@ -1,0 +1,5 @@
+project:
+  name: Syntactic Code Converter
+  version: 1.0
+dir:
+  work: "."
